@@ -72,11 +72,21 @@ a {
 
 .header__main-title {
     margin-top: 103px;
+    text-shadow:
+    -1px -1px 0 #000,
+     0   -1px 0 #000,
+     1px -1px 0 #000,
+     1px  0   0 #000,
+     1px  1px 0 #000,
+     0    1px 0 #000,
+    -1px  1px 0 #000,
+    -1px  0   0 #000;
 }
 
 .header__main-subtitle {
     margin: 20px 0 60px 0;
 }
+
 
 .header {
     background-image: url('../img/bg_main.png');
@@ -87,6 +97,9 @@ a {
     justify-self: center;
     width: 100%;
 }
+
+
+
 
 .header__conteiner {
     margin: 0 200px;
